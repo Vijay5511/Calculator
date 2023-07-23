@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.vertical-menu {
+			width: 100%;
+            text-align: center;
+            
+		}
+
+		.vertical-menu a {
+			background-color:black;
+			color: white;
+			display: block;
+			padding: 12px;
+            text-decoration: none;
+		}
+
+		.vertical-menu a:hover {
+			background-color:rgb(34, 121, 197);
+		
+		}
+    .Search {
+    margin: 20px;
+    padding: 2px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 0px 5px 2px 0px;
+    text-align: end;
+    color: black;
+}
+.dropbtn {
+ background-color: black;
+  color: white;
+  margin: 0%;
+  padding: 0.7px 20px 20px 1229px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+
+  
+}
+
+.dropdown {
+  width: auto
+ 
+
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:aliceblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color:rgb(34, 121, 197);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color:black;
+
+}
+
+</style>
+</head>
+
+<body>
+	<div class="Search">
+        <input type="text">
+        <button class="buttonsm">Search</button>
+    </div>
+        <div class="vertical-menu">
+		<a href="#">Home</a>
+		<a href="#">About Us </a>
+		<a href="#">Contact Us</a>
+    </div>
+</div>  
+<div class="dropdown">
+    <a class="dropbtn" href="#">Services</a>
+    <div class="dropdown-content">
+      <a href="#">BCA</a>
+      <a href="#">BBA</a>
+      <a href="#">B.COM</a>
+      <a href="#">BA</a>
+    </div>
+  </div>     
+</body>
+
+</html>
